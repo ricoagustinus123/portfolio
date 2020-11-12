@@ -1,0 +1,197 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: ghostwhite;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding: 0 10%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 20px;
+}
+
+.menu a{
+    color: white;
+}
+.menu a:hover{
+    color: #D8C413;
+    border-bottom: 1px solid #D8C413;
+    transition-duration: 1.3s;
+}
+.menu button{
+    display: flex;
+    align-items: center;
+    padding: 3% 30px;
+    border-radius: 20px;
+}
+.Hero{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.Hero .Hero-left{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Hero-title-one{
+    font-size: 20pt;
+}
+.Hero-title-two{
+    font-size: 35pt;
+}
+
+.Hero-Right{
+    width: 50%;
+    height: auto;
+    position: relative;
+}
+.Hero-Right .background-right{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../Assets/background.png);
+    position: absolute;
+    left:-300px;
+    top: -10px;
+   
+}
+.Hero-Right .man{
+    position: absolute;
+    left: 350px;
+    top: 30px;
+}
+
+.hero-desc{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5% 5%;
+    background-image: url(../Assets/herodesc_back.png);
+    background-size: cover;
+    margin-top: -10px;
+  
+}
+.hero-desc-title{
+    color: white;
+    font-size: 25pt;
+    margin-bottom: -10px;
+}
+.hero-desc-isi{
+    color:white;
+    font-size: 11pt;
+    width: 70%;
+    text-align: justify;
+}
+.read-more{
+    width: 100px;
+    color: white;
+    padding: 5px 0px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.read-more:hover{
+    color: yellow;
+    border-left: 1px solid yellow;
+    border-right: 1px solid yellow;
+}
+
+
+.about{
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+    align-items: center;
+}
+
+.about .about-title{
+    font-size: 25pt;
+    width: 30%;
+    height: 5%;
+    border: 5px solid black;
+    padding: 1% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .about-isi{
+    width: 70%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.about .explore{
+    width: 100px;
+    padding: 5px 0px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.about .line{
+    margin-top: 100px;
+}
+
+.about .about-col{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding: 0 20%;
+    gap:20px;
+}
+
+.about .maintenc{
+    display: flex;
+    padding: 0 30%;
+    flex-direction: column;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.about-title2{
+    text-transform: uppercase;
+}
