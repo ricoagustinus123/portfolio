@@ -112,8 +112,41 @@ flex-direction: column;
     height: 100%;
     position: absolute;
     left: 500px;
-    top: 35px;
+    top: 25px;
+    z-index: 50;
     
 }
 
-
+.hero-desc{
+    width: 100vw;
+    height: 30vh;
+    background-image: url(../Assets/back_hero_desc.svg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    padding:8% 5%;
+    z-index: 100;
+    position: relative;
+}
+.hero-desc-title{
+    color: white;
+    margin-bottom: 0%;
+}
+.hero-desc-isi{
+    width: 70%;
+    font-size: 10pt;
+    color: white;
+    text-align: justify;
+}
+.read-more{
+    width: 10%;
+    background: none;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 3%;
+}
