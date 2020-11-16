@@ -24,6 +24,7 @@ a{
 p{
     color: inherit;
     font-size: 12pt;
+    line-height: 2;
 }
 .Navbar{
     width: 100vw;
@@ -149,4 +150,95 @@ flex-direction: column;
     align-items: center;
     color: white;
     margin-bottom: 3%;
+}
+
+.about{
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 5% 20%;
+    align-items: center;
+}
+
+.about-title{
+    width: 200px;
+    padding: 2% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid black;
+
+}
+.about-isi{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+.explore{
+    width: 13%;
+    background: none;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:100px 0;
+}
+
+.about .about-col{
+    display: flex;
+    margin: 100px 0;
+    gap: 3%;
+    width: 70vw;
+}
+
+.about-title2{
+    font-size: 25pt;
+}
+.about-isi2{
+    width: 470px;
+    font-size: 10pt;
+}
+
+/* skill */
+.skill{
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20%;
+    align-items: center;
+}
+
+.skill .skill-titleone{
+    width: 200px;
+    padding: 2% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid black;
+    
+}
+.using-now,.learning,.other-skill{
+    width: 60vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0;
+}
+.skill .skill-col{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 0;
+    align-items: center;
+}
+.skill .skill-desc{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

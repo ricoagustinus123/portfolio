@@ -12,10 +12,8 @@ const HeroDesc = () => {
         Etiam enim erat, suscipit eu semper a, dictum sit amet elit. 
         Nunc egestas nisi eget enim gravida facilisis. 
         Pellentesque laoreet varius turpis vel pharetra. Ut ante justo, 
-        consequat vitae elementum tempor, accumsan nec eros.
-       
+        consequat vitae elementum tempor, accumsan nec eros.</p>
         
-        </p>
         <a class="read-more">Read More</a>
       
     </section>
